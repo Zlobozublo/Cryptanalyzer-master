@@ -17,12 +17,12 @@ public class Controller {
 
     public static void DecodeController() throws IOException {
         Decode decode = new Decode();
-        WriteToFile.writeDefaultFile(Decode.decoder(ReadToFile.readDefaultFile()));
+        WriteToFile.writeEncodeFile(Decode.decoder(ReadToFile.readDefaultFile()));
     }
 
     public static void BruteForceController() throws IOException {
         BruteForce bruteforce = new BruteForce();
-        WriteToFile.writeDefaultFile(bruteforce.bruteforce(ReadToFile.readDefaultFile()));
+        WriteToFile.writeBrootForceFile(bruteforce.bruteforce(ReadToFile.readDefaultFile()));
     }
 
     public static void StatAnalizeController() throws IOException {

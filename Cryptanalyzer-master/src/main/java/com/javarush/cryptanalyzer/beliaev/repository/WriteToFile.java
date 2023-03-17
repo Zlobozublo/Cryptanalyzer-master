@@ -25,4 +25,44 @@ public class WriteToFile {
 //            System.out.println("ПОТРАЧЕНО");
 //        }
     }
+
+    public static void writeEncodeFile(String output) throws IOException {
+
+        Path outPath = Path.of("encode.txt");
+        if(Files.notExists(outPath)) {
+            Files.createFile(outPath); //создаем файл
+        }
+        Files.writeString(outPath, output); //vyvod2
+        System.out.println("Файл записан");
+//        --------
+//        String path = "output.txt";
+//        File outPutFile = new File(path);
+//
+//        try{
+//            boolean file = outPutFile.createNewFile();
+//            System.out.println("File created!");
+//        } catch (Exception E){
+//            System.out.println("ПОТРАЧЕНО");
+//        }
+    }
+
+    public static void writeBrootForceFile(String output) throws IOException {
+
+        Path outPath = Path.of("brootforce.txt");
+        if(Files.notExists(outPath)) {
+            Files.createFile(outPath); //создаем файл
+        }
+        Files.writeString(outPath, output); //vyvod2
+        System.out.println("Файл записан");
+//        --------
+//        String path = "output.txt";
+//        File outPutFile = new File(path);
+//
+//        try{
+//            boolean file = outPutFile.createNewFile();
+//            System.out.println("File created!");
+//        } catch (Exception E){
+//            System.out.println("ПОТРАЧЕНО");
+//        }
+    }
 }

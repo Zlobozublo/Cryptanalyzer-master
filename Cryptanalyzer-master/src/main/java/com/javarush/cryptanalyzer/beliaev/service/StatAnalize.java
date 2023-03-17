@@ -29,13 +29,13 @@ public class StatAnalize {
         System.out.println(map);
     }
 
-    public void collectionComparision(HashMap<Character, Integer> dictionary, HashMap<Character, Integer> encodeDictionary){
-        //сравниваем ключи коллекции для поиска совпадения значения
-        for (Map.Entry entry: dictionary.entrySet()) {
-            dictionary.put();
-        }
+//    public void collectionComparision(HashMap<Character, Integer> dictionary, HashMap<Character, Integer> encodeDictionary){
+//        //сравниваем ключи коллекции для поиска совпадения значения
+//        for (Map.Entry entry: dictionary.entrySet()) {
+//            dictionary.put();
+//        }
 
 
 
-    }
+
 }
